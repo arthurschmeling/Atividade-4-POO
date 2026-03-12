@@ -13,7 +13,7 @@ public class principal {
         carro c = new carro();
         moto m = new moto();
 
-        System.out.println("=== Cadastro de Carro ===");
+        System.out.println("Cadastro de Carro");
 
         System.out.println("Marca:");
         c.setMarca(ler.nextLine());
@@ -32,7 +32,7 @@ public class principal {
 
         ler.nextLine();
 
-        System.out.println("=== Cadastro de Moto ===");
+        System.out.println("Cadastro de Moto");
 
         System.out.println("Marca:");
         m.setMarca(ler.nextLine());
@@ -49,12 +49,13 @@ public class principal {
         System.out.println("Cilindradas:");
         m.setCilindradas(ler.nextInt());
 
-        System.out.println("--- Detalhes do Carro ---");
+        System.out.println("Detalhes do Carro");
         c.exibirDetalhes();
 
-        System.out.println("--- Detalhes da Moto ---");
+        System.out.println("Detalhes da Moto");
         m.exibirDetalhes();
 
     }
 }
+
 
