@@ -25,10 +25,10 @@ public class principal {
 
         p.descontarBlackFriday();
 
-        System.out.println("\nProduto com desconto:");
+        System.out.println("Produto com desconto:");
         p.exibirDetalhes();
 
-        System.out.println("\n--- Cadastro Eletrônico ---");
+        System.out.println("Cadastro Eletrônico");
 
         System.out.println("Código:");
         e.setCodigo(ler.nextInt());
@@ -48,7 +48,7 @@ public class principal {
 
         ler.nextLine();
 
-        System.out.println("\n--- Cadastro Livro ---");
+        System.out.println("Cadastro Livro");
 
         System.out.println("Código:");
         l.setCodigo(ler.nextInt());
@@ -67,4 +67,5 @@ public class principal {
         l.exibirAutor();
         l.exibirDetalhes();
     }
+
 }
